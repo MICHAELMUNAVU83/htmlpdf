@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js "></script>
+  </head>
+  <body>
+    <table id="printTable">
+      <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Joining Date</th>
+        <th>Age</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>HR</td>
+          <td>16May2000</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rohnda</td>
+          <td>Manager</td>
+          <td>23June2005</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Stephen</td>
+          <td>Accountant</td>
+          <td>20September2008</td>
+          <td>26</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <button id="printButton" onclick="print()">Print</button>
+  </body>
+
+  <script src="/app.js" type="text/javascript"></script>
+</html>
